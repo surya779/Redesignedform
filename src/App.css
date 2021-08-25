@@ -6,13 +6,49 @@
   height: 40vmin;
   pointer-events: none;
 }
+.error{
+  color:red;
+}
+.Gender {
+
+  width:'15ch';
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.PhoneInputInput {
+  height:5ch !important;
+  width: 32ch !important;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input:first-child{
+  height: 3px;
+}
 
+.MuiButton-containedPrimary{
+  background-color: orangered !important;
+}
+.MuiPaper-root{
+  background-color: #003366 !important;
+  color: white !important;
+}
+.MuiButton-containedPrimary{
+  background-color: orangered;
+}
+.MuiStepIcon-root.MuiStepIcon-active{
+color: orangered !important;
+}
+.MuiStepLabel-label.MuiStepLabel-active{
+  color: white !important;
+}
+.MuiOutlinedInput-inputMarginDense{
+  width: 30ch !important;
+}
+.MuiSelect-select{
+  width: 260px !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
