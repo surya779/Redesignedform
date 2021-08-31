@@ -32,6 +32,7 @@ export default class App extends React.Component {
   constructor(props) {
     
     super(props);
+    
     this.state = {
       formdata : [{fullName:''},
                   {Gender:''},
@@ -43,13 +44,13 @@ export default class App extends React.Component {
                   {jobtitle:''},
                   {yearsofexperience:""}],
                   
-      fullName: null,
-      Gender: null,
-      password: null,
-      country:null,
-      Value:null,
-      phonenumber:null,
-      State:null,
+      // fullName: null,
+      // Gender: null,
+      // password: null,
+      // country:null,
+      // Value:null,
+      // phonenumber:null,
+      // State:null,
        countries : [
         {  code: 'AD', label: 'Andorra', phone: '376' },
         { code: 'AE', label: 'United Arab Emirates', phone: '971' },
@@ -457,7 +458,7 @@ export default class App extends React.Component {
           onChange={this.handleChange}
           
         >
-          <MenuItem value={"Andhra Pradesh"}>Andhra Pradesh	</MenuItem>
+          <MenuItem value={"Tamil Nadu"}>Tamil Nadu	</MenuItem>
           <MenuItem value={"Arunachal Pradesh"}>Arunachal Pradesh	</MenuItem>
           <MenuItem value={"Assam"}>Assam</MenuItem>
           <MenuItem value={"Bihar"}>Bihar	</MenuItem>
